@@ -1,0 +1,181 @@
+.background{
+    position: relative;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.background_image_div{
+    height: 100vh;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    bottom: 0;
+}
+
+.background_image{
+    height: 48.7vw !important;
+    width: 98vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    bottom: 0;
+    object-fit: cover;
+}
+
+/* Home CSS ================================================================================================= */
+
+.home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.name,.photo,.content{
+    padding: 20px;
+    height: 350px;
+}
+.name{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.photo{
+    width: 400px;
+}
+.greetings{
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+}
+.home_name{
+    font-size: 60px;
+    font-weight:600;
+}
+
+.description{
+    font-size: 20px;
+    font-weight:600;
+}
+
+.socials{
+    margin-top: 10px;
+}
+.icon{
+    cursor: pointer;
+    font-size: 25px !important;
+    margin-right: 15px;
+    transition: transform 250ms ease-out,color 250ms ease-out;
+}
+.icon:hover{
+    transform: scale(1.1);
+    color: rgb(88, 157, 236);
+    transition: transform 250ms ease-out,color 250ms ease-out;
+}
+.hii_image{
+    filter: invert(100%);
+    height: 300px;
+    width: auto;
+    transform: scaleX(-1);
+}
+
+.downarrow{
+    position: relative;
+    top: -200px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.downwardArrow{
+    height: 100px;
+    width: auto;
+    transform: rotate(90deg);
+    
+}
+
+/* About CSS =========================================================================== */
+
+.About{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.title{
+    font-size: 70px;
+    color: white;
+}
+
+.about_description{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.content{
+    width: 500px;
+}
+
+.about_image{
+    filter: invert(100%);
+    height: 300px;
+    width: auto;
+}
+/* Skills CSS========================================================================================= */
+
+.skills{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon_div{
+    height: 100px;
+    width: auto;
+}
+.skills_image{
+    cursor: pointer;
+    height: 100%;
+    width: auto;
+    transition: transform 250ms ease-in-out;
+    opacity: 0.8;
+
+}
+
+.skills_image:hover{
+    transform: scale(1.1) rotate(10deg);
+    opacity: 1;
+    transition: transform 250ms ease-in-out,opacity 250ms ease-in-out;
+}
+
+.skills_div{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 100px;
+    border-right: 15px solid rgb(94, 36, 36);
+}
+
+.skills_stickman{
+    position: absolute;
+    height: 150px;
+    right: 135px;
+    bottom: 250px;
+    filter: invert(100%);
+}
