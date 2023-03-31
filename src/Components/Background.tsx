@@ -4,6 +4,7 @@ import About from './About'
 import Home from './Home'
 import Skills from './Skills'
 import './style.css'
+import Project from './Project'
 function Background() {
   return (
     <div className='background'>
@@ -13,6 +14,7 @@ function Background() {
         <div className='contents'>
           <Home />
           <About />
+          <Project />
           <Skills />
         </div>
     </div>
