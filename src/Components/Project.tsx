@@ -2,14 +2,14 @@ import React from 'react'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import PublicIcon from '@mui/icons-material/Public';
 import EcomIMG from '../../public/projects/ecom.png'
-import Working from '../../public/projects/working.png'
+import working from '../../public/projects/working.png'
 
 function Project() {
   return (
       <>
     <h1 className='title proj_title'>Projects</h1>
     <div className='Project'>
-    <img src={Working} alt='' className='working'/>
+    <img src={working} alt='' className='working' style={{animation: 'none 1s linear 1'}}/>
         <div className='project_cards'>
             <div className="project_1 proj">
                 <div className="proj_card_icon">
@@ -38,7 +38,7 @@ function Project() {
                     <img src='https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712__340.jpg' alt='' className="proj_image"/>
                     <div className='card_info'>
                         <h3 className='proj_card_title'>Web Chatting Application (React)</h3>
-                        <span className='proj_card_desc'>Something related to project i have completed</span>
+                        <span className='proj_card_desc'>Real time chatting application, where people can send and receive text as well as images.</span>
                         <ul className='key_properties'>
                             <li>» Firestore Database (Firebase)</li>
                             <li>» Firestore Authentication (Firebase)</li>
@@ -57,7 +57,7 @@ function Project() {
                     <img src='https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712__340.jpg' alt='' className="proj_image"/>
                     <div className='card_info'>
                         <h3 className='proj_card_title'>Crypto Informative Website (React)</h3>
-                        <span className='proj_card_desc'>Something related to project i have completed</span>
+                        <span className='proj_card_desc'>Real time crypto currency data and crypto news.</span>
                         <ul className='key_properties'>
                             <li>» Fetching Data (RAPID API)</li>
                             <li>» Real Time Data</li>
@@ -75,7 +75,7 @@ function Project() {
                     <img src='https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712__340.jpg' alt='' className="proj_image"/>
                     <div className='card_info'>
                         <h3 className='proj_card_title'>Bomber Game (HTML-CSS-JS)</h3>
-                        <span className='proj_card_desc'>Something related to project i have completed</span>
+                        <span className='proj_card_desc'>Just a bomber game in html css and js</span>
                         <ul className='key_properties'>
                             <li>» HTML</li>
                             <li>» CSS</li>

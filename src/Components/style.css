@@ -190,6 +190,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 150px;
+    /* overflow-x: hidden; */
 }
 .card_info{
     /* display: none; */
@@ -276,3 +277,6 @@
     top: -130px;
     right: 450px;
 }
+
+
+
